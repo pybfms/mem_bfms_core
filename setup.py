@@ -3,7 +3,7 @@ import os
 from setuptools import setup
 
 setup(
-  name = "mem_bfms_core",
+  name = "pybfms_mem_core",
   packages=['mem_bfms_core'],
   package_dir = {'' : 'src'},
   author = "Matthew Ballance",
@@ -11,7 +11,7 @@ setup(
   description = ("Provides core classes for use by memory-oriented BFMs"),
   license = "Apache 2.0",
   keywords = ["SystemVerilog", "Verilog", "RTL", "CocoTB"],
-  url = "https://github.com/pybfms/mem_bfms_core",
+  url = "https://github.com/pybfms/pybfms_mem_core",
   setup_requires=[
     'setuptools_scm',
   ],
